@@ -1,0 +1,143 @@
+nav {
+    background-color: #102a43;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+p {    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: none;
+    font-style: italic;
+}
+
+ul > li {    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+nav a { 
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {   
+    color: #8fd3ff;
+}
+
+img {   
+    max-width: 100%;
+    height: auto;
+}
+
+.home-page { 
+    background-color: #eef6fb;
+}
+
+.home-page h1,
+.home-page h2 {    
+    color: #123b5d;
+}
+
+.home-page img:first-of-type {  
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.home-page main {   
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.home-page h2 { 
+    border-bottom: 3px solid #8fd3ff;
+    padding-bottom: 10px;
+}
+
+.home-page h2 { 
+    margin-top: 35px;
+}
+
+.home-page ul { 
+    background-color: white;
+    padding: 25px 45px;
+    border-left: 5px solid #3b82a0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.home-page li { 
+    margin: 8px 0;
+}
+
+.about-page main {  
+    background-color: #ffffff;
+}
+
+.about-page main {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 40px;
+}
+
+.about-page h2 {
+    color: #155e75;
+    border-left: 6px solid #8fd3ff;
+    padding-left: 15px;
+}
+
+.about-page p { 
+    background-color: #f1f8fc;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.about-page u1 {    
+    background-color: #102a43;
+    color: white;
+    padding: 25px 45px;
+    border-radius: 12px;
+}
+
+.about-page li {    
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+a ul{
+    list-style: inside;
+}
+
+body {   
+    margin: 0;
+    background-color: #f4f8fb;
+    color: #1b2a3a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {    
+    font-family: 'Playfair Display', serif;
+}
+h1 {    
+    font-size: 42px;
+}
+h2 {    
+    font-size: 30px;
+}
+
+p { 
+    font-size: 16px;
+}
