@@ -5,6 +5,52 @@ nav {
     justify-content: center;
     gap: 35px;
 }
+#main-heading { 
+    text-align: center;
+    color: #17324d;
+}
+#about-heading {    
+    text-align: center;
+    color: #17324d;
+}
+.content-selection {    
+    color: #203449;
+}
+
+nav a:holder {   
+    color: #f4b183;
+    text-decoration: underline;
+}
+
+.content-selection {    
+    width: 85%;
+    height: auto;
+    min-height: 150px;
+    padding: 24px;
+    margin: 30px auto;
+    border: 2px solid #c5d6e5;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+body {   
+    background-image: url("snowboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:#f2f7fb;
+
+}
+
+body {   
+    background-image: url("snowboard1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:#f2f7fb;
+
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -35,9 +81,13 @@ nav a:hover {
     color: #8fd3ff;
 }
 
-img {   
+
+img { 
     max-width: 100%;
     height: auto;
+    border: 3px solid #c5d6e5;
+    border-radius: 12px;
+    box-sizing: border-box;  
 }
 
 .home-page { 
@@ -70,12 +120,22 @@ img {
     margin-top: 35px;
 }
 
-.home-page ul { 
-    background-color: white;
+.home-page u1 { 
+    background-color: gray;
     padding: 25px 45px;
     border-left: 5px solid #3b82a0;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.home-page u1 {  
+    background-color: #ffffff;
+    color: #1b2a3a;
+    padding: 25px 45px;
+    margin: 25px 0;
+    border-left: 5px solid #3b82a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    list-style-position: inside;
 }
 
 .home-page li { 
@@ -122,7 +182,7 @@ footer {
     padding: 25px;
     margin-top: 50px;
 }
-a ul{
+a u1{
     list-style: inside;
 }
 
